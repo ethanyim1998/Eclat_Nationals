@@ -46,7 +46,7 @@ import github.ankushsachdeva.emojicon.emoji.Objects;
 import github.ankushsachdeva.emojicon.emoji.People;
 import github.ankushsachdeva.emojicon.emoji.Places;
 import github.ankushsachdeva.emojicon.emoji.Symbols;
-import ru.ifsoft.network.R;
+import ru.hhsfbla.network.R;
 
 
 /**

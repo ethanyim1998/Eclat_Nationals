@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+package ru.hhsfbla.network;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -60,12 +60,12 @@ import github.ankushsachdeva.emojicon.EmojiconEditText;
 import github.ankushsachdeva.emojicon.EmojiconGridView;
 import github.ankushsachdeva.emojicon.EmojiconsPopup;
 import github.ankushsachdeva.emojicon.emoji.Emojicon;
-import ru.ifsoft.network.adapter.ChatListAdapter;
-import ru.ifsoft.network.app.App;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.dialogs.MsgImageChooseDialog;
-import ru.ifsoft.network.model.ChatItem;
-import ru.ifsoft.network.util.CustomRequest;
+import ru.hhsfbla.network.adapter.ChatListAdapter;
+import ru.hhsfbla.network.app.App;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.dialogs.MsgImageChooseDialog;
+import ru.hhsfbla.network.model.ChatItem;
+import ru.hhsfbla.network.util.CustomRequest;
 
 public class ChatFragment extends Fragment implements Constants {
 

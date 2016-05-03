@@ -1,4 +1,4 @@
-package ru.ifsoft.network.adapter;
+package ru.hhsfbla.network.adapter;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 import com.android.volley.toolbox.ImageLoader;
 import com.pkmmte.view.CircularImageView;
 
-import ru.ifsoft.network.R;
-import ru.ifsoft.network.app.App;
+import ru.hhsfbla.network.R;
+import ru.hhsfbla.network.app.App;
 
 public class NavDrawerAdapter extends RecyclerView.Adapter<NavDrawerAdapter.ViewHolder> {
 

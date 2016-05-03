@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/main_layout"
-    tools:context="ru.ifsoft.network.FavoritesFragment">
+    tools:context="ru.hhsfbla.network.FavoritesFragment">
 
     <ScrollView
         android:layout_width="fill_parent"

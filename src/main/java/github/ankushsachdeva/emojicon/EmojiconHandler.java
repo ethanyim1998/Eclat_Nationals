@@ -19,7 +19,7 @@ import android.content.Context;
 import android.text.Spannable;
 import android.util.SparseIntArray;
 
-import ru.ifsoft.network.R;
+import ru.hhsfbla.network.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)

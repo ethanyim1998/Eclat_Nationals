@@ -22,7 +22,7 @@ import android.text.SpannableStringBuilder;
 import android.util.AttributeSet;
 import android.widget.TextView;
 
-import ru.ifsoft.network.R;
+import ru.hhsfbla.network.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com).

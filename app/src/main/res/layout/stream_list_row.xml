@@ -217,7 +217,7 @@
             android:layout_marginRight="16dp"
             android:layout_marginBottom="10dp" />
 
-        <ru.ifsoft.network.view.ResizableImageView
+        <ru.hhsfbla.network.view.ResizableImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/itemImg"
@@ -346,7 +346,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_marginBottom="10dp" />
 
-            <ru.ifsoft.network.view.ResizableImageView
+            <ru.hhsfbla.network.view.ResizableImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/rePostItemImg"

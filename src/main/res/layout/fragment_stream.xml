@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/main_layout"
-    tools:context="ru.ifsoft.network.StreamFragment">
+    tools:context="ru.hhsfbla.network.StreamFragment">
 
     <LinearLayout
         android:orientation="vertical"

@@ -26,7 +26,7 @@ import java.util.Arrays;
 
 import github.ankushsachdeva.emojicon.emoji.Emojicon;
 import github.ankushsachdeva.emojicon.emoji.People;
-import ru.ifsoft.network.R;
+import ru.hhsfbla.network.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com)

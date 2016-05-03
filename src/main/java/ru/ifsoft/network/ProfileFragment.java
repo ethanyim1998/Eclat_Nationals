@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+package ru.hhsfbla.network;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -58,23 +58,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import ru.ifsoft.network.adapter.ProfileListAdapter;
-import ru.ifsoft.network.app.App;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.dialogs.CoverChooseDialog;
-import ru.ifsoft.network.dialogs.MyPostActionDialog;
-import ru.ifsoft.network.dialogs.PhotoChooseDialog;
-import ru.ifsoft.network.dialogs.PostActionDialog;
-import ru.ifsoft.network.dialogs.PostDeleteDialog;
-import ru.ifsoft.network.dialogs.PostReportDialog;
-import ru.ifsoft.network.dialogs.PostShareDialog;
-import ru.ifsoft.network.dialogs.ProfileBlockDialog;
-import ru.ifsoft.network.dialogs.ProfileReportDialog;
-import ru.ifsoft.network.model.Item;
-import ru.ifsoft.network.model.Profile;
-import ru.ifsoft.network.util.Api;
-import ru.ifsoft.network.util.CustomRequest;
-import ru.ifsoft.network.util.ItemInterface;
+import ru.hhsfbla.network.adapter.ProfileListAdapter;
+import ru.hhsfbla.network.app.App;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.dialogs.CoverChooseDialog;
+import ru.hhsfbla.network.dialogs.MyPostActionDialog;
+import ru.hhsfbla.network.dialogs.PhotoChooseDialog;
+import ru.hhsfbla.network.dialogs.PostActionDialog;
+import ru.hhsfbla.network.dialogs.PostDeleteDialog;
+import ru.hhsfbla.network.dialogs.PostReportDialog;
+import ru.hhsfbla.network.dialogs.PostShareDialog;
+import ru.hhsfbla.network.dialogs.ProfileBlockDialog;
+import ru.hhsfbla.network.dialogs.ProfileReportDialog;
+import ru.hhsfbla.network.model.Item;
+import ru.hhsfbla.network.model.Profile;
+import ru.hhsfbla.network.util.Api;
+import ru.hhsfbla.network.util.CustomRequest;
+import ru.hhsfbla.network.util.ItemInterface;
 
 public class ProfileFragment extends Fragment implements Constants, SwipeRefreshLayout.OnRefreshListener, ItemInterface {
 

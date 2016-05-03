@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+package ru.hhsfbla.network;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -27,18 +27,18 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 
-import ru.ifsoft.network.adapter.StreamListAdapter;
-import ru.ifsoft.network.app.App;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.dialogs.MyPostActionDialog;
-import ru.ifsoft.network.dialogs.PostActionDialog;
-import ru.ifsoft.network.dialogs.PostDeleteDialog;
-import ru.ifsoft.network.dialogs.PostReportDialog;
-import ru.ifsoft.network.dialogs.PostShareDialog;
-import ru.ifsoft.network.model.Item;
-import ru.ifsoft.network.util.Api;
-import ru.ifsoft.network.util.CustomRequest;
-import ru.ifsoft.network.util.ItemInterface;
+import ru.hhsfbla.network.adapter.StreamListAdapter;
+import ru.hhsfbla.network.app.App;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.dialogs.MyPostActionDialog;
+import ru.hhsfbla.network.dialogs.PostActionDialog;
+import ru.hhsfbla.network.dialogs.PostDeleteDialog;
+import ru.hhsfbla.network.dialogs.PostReportDialog;
+import ru.hhsfbla.network.dialogs.PostShareDialog;
+import ru.hhsfbla.network.model.Item;
+import ru.hhsfbla.network.util.Api;
+import ru.hhsfbla.network.util.CustomRequest;
+import ru.hhsfbla.network.util.ItemInterface;
 
 public class FavoritesFragment extends Fragment implements Constants, SwipeRefreshLayout.OnRefreshListener, ItemInterface {
 

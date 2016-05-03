@@ -1,4 +1,4 @@
-package ru.ifsoft.network.adapter;
+package ru.hhsfbla.network.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -14,10 +14,10 @@ import com.pkmmte.view.CircularImageView;
 
 import java.util.List;
 
-import ru.ifsoft.network.R;
-import ru.ifsoft.network.app.App;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.model.Profile;
+import ru.hhsfbla.network.R;
+import ru.hhsfbla.network.app.App;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.model.Profile;
 
 
 public class PeopleListAdapter extends BaseAdapter {

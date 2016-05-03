@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+package ru.hhsfbla.network;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,16 +10,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import ru.ifsoft.network.common.ActivityBase;
-import ru.ifsoft.network.dialogs.CoverChooseDialog;
-import ru.ifsoft.network.dialogs.MyPostActionDialog;
-import ru.ifsoft.network.dialogs.PhotoChooseDialog;
-import ru.ifsoft.network.dialogs.PostActionDialog;
-import ru.ifsoft.network.dialogs.PostDeleteDialog;
-import ru.ifsoft.network.dialogs.PostReportDialog;
-import ru.ifsoft.network.dialogs.PostShareDialog;
-import ru.ifsoft.network.dialogs.ProfileBlockDialog;
-import ru.ifsoft.network.dialogs.ProfileReportDialog;
+import ru.hhsfbla.network.common.ActivityBase;
+import ru.hhsfbla.network.dialogs.CoverChooseDialog;
+import ru.hhsfbla.network.dialogs.MyPostActionDialog;
+import ru.hhsfbla.network.dialogs.PhotoChooseDialog;
+import ru.hhsfbla.network.dialogs.PostActionDialog;
+import ru.hhsfbla.network.dialogs.PostDeleteDialog;
+import ru.hhsfbla.network.dialogs.PostReportDialog;
+import ru.hhsfbla.network.dialogs.PostShareDialog;
+import ru.hhsfbla.network.dialogs.ProfileBlockDialog;
+import ru.hhsfbla.network.dialogs.ProfileReportDialog;
 
 
 public class MainActivity extends ActivityBase implements FragmentDrawer.FragmentDrawerListener, PhotoChooseDialog.AlertPositiveListener, CoverChooseDialog.AlertPositiveListener, ProfileReportDialog.AlertPositiveListener, ProfileBlockDialog.AlertPositiveListener, PostDeleteDialog.AlertPositiveListener, PostReportDialog.AlertPositiveListener, MyPostActionDialog.AlertPositiveListener, PostActionDialog.AlertPositiveListener, PostShareDialog.AlertPositiveListener {

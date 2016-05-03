@@ -22,7 +22,7 @@ import android.util.AttributeSet;
 import android.view.KeyEvent;
 import android.widget.EditText;
 
-import ru.ifsoft.network.R;
+import ru.hhsfbla.network.R;
 
 /**
  * @author Hieu Rocker (rockerhieu@gmail.com).

@@ -1,4 +1,4 @@
-package ru.ifsoft.network.app;
+package ru.hhsfbla.network.app;
 
 import android.app.Application;
 import android.content.Context;
@@ -29,11 +29,11 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-import ru.ifsoft.network.R;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.util.CustomRequest;
-import ru.ifsoft.network.util.GPSTracker;
-import ru.ifsoft.network.util.LruBitmapCache;
+import ru.hhsfbla.network.R;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.util.CustomRequest;
+import ru.hhsfbla.network.util.GPSTracker;
+import ru.hhsfbla.network.util.LruBitmapCache;
 
 public class App extends Application implements Constants {
 

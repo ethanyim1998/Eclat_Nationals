@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+package ru.hhsfbla.network;
 
 
 import android.os.Bundle;
@@ -7,11 +7,11 @@ import android.support.v4.app.FragmentManager;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
-import ru.ifsoft.network.common.ActivityBase;
-import ru.ifsoft.network.dialogs.MyPostActionDialog;
-import ru.ifsoft.network.dialogs.PostActionDialog;
-import ru.ifsoft.network.dialogs.PostDeleteDialog;
-import ru.ifsoft.network.dialogs.PostReportDialog;
+import ru.hhsfbla.network.common.ActivityBase;
+import ru.hhsfbla.network.dialogs.MyPostActionDialog;
+import ru.hhsfbla.network.dialogs.PostActionDialog;
+import ru.hhsfbla.network.dialogs.PostDeleteDialog;
+import ru.hhsfbla.network.dialogs.PostReportDialog;
 
 public class FavoritesActivity extends ActivityBase implements PostDeleteDialog.AlertPositiveListener, PostReportDialog.AlertPositiveListener, MyPostActionDialog.AlertPositiveListener, PostActionDialog.AlertPositiveListener {
 

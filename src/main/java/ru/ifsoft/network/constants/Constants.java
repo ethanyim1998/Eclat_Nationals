@@ -1,4 +1,4 @@
-package ru.ifsoft.network.constants;
+package ru.hhsfbla.network.constants;
 
 public interface Constants {
 

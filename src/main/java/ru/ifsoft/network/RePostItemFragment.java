@@ -1,4 +1,4 @@
-package ru.ifsoft.network;
+package ru.hhsfbla.network;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -47,10 +47,10 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import ru.ifsoft.network.app.App;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.dialogs.PostImageChooseDialog;
-import ru.ifsoft.network.util.CustomRequest;
+import ru.hhsfbla.network.app.App;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.dialogs.PostImageChooseDialog;
+import ru.hhsfbla.network.util.CustomRequest;
 
 public class RePostItemFragment extends Fragment implements Constants {
 

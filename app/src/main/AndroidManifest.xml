@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="ru.ifsoft.network" >
+    package="ru.hhsfbla.network" >
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_CORSE_LOCATION" />
@@ -16,11 +16,11 @@
     <uses-permission android:name="ru.ifsoft.network.permission.C2D_MESSAGE" />
 
     <permission
-        android:name="ru.ifsoft.network.permission.C2D_MESSAGE"
+        android:name="ru.hhsfbla.network.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
     <application
-        android:name=".app.App"
+        android:name="ru.hhsfbla.network.app.App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -33,7 +33,7 @@
             android:value="@integer/google_play_services_version" />
 
         <activity
-            android:name=".AppActivity"
+            android:name="ru.hhsfbla.network.AppActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
@@ -61,164 +61,164 @@
         </receiver>
 
         <service
-            android:name=".service.GcmService"
+            android:name="ru.hhsfbla.network.service.GcmService"
             android:exported="true" >
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
             </intent-filter>
         </service>
         <service
-            android:name=".service.MyInstanceIDListenerService"
+            android:name="ru.hhsfbla.network.service.MyInstanceIDListenerService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.android.gms.iid.InstanceID" />
             </intent-filter>
         </service>
         <service
-            android:name=".service.RegistrationIntentService"
+            android:name="ru.hhsfbla.network.service.RegistrationIntentService"
             android:exported="false" >
         </service>
         <service
-            android:name=".service.MyService"
+            android:name="ru.hhsfbla.network.service.MyService"
             android:exported="false" >
         </service>
 
         <activity
-            android:name=".LoginActivity"
+            android:name="ru.hhsfbla.network.LoginActivity"
             android:label="@string/title_activity_login"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".SignupActivity"
+            android:name="ru.hhsfbla.network.SignupActivity"
             android:label="@string/title_activity_signup"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="ru.hhsfbla.network.MainActivity"
             android:label="@string/title_activity_feeds" >
         </activity>
         <activity
-            android:name=".RecoveryActivity"
+            android:name="ru.hhsfbla.network.RecoveryActivity"
             android:label="@string/title_activity_recovery"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".SettingsActivity"
+            android:name="ru.hhsfbla.network.SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
         <activity
-            android:name=".WebViewActivity"
+            android:name="ru.hhsfbla.network.WebViewActivity"
             android:label="@string/title_activity_web_view" >
         </activity>
         <activity
-            android:name=".ChangePasswordActivity"
+            android:name="ru.hhsfbla.network.ChangePasswordActivity"
             android:label="@string/title_activity_change_password"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".ServicesActivity"
+            android:name="ru.hhsfbla.network.ServicesActivity"
             android:label="@string/title_activity_services" >
         </activity>
         <activity
-            android:name=".NewItemActivity"
+            android:name="ru.hhsfbla.network.NewItemActivity"
             android:label="@string/title_activity_new_item" >
         </activity>
         <activity
-            android:name=".ViewItemActivity"
+            android:name="ru.hhsfbla.network.ViewItemActivity"
             android:label="@string/title_activity_view_item"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".ProfileActivity"
+            android:name="ru.hhsfbla.network.ProfileActivity"
             android:label="@string/title_activity_profile" >
         </activity>
         <activity
-            android:name=".SearchActivity"
+            android:name="ru.hhsfbla.network.SearchActivity"
             android:label="@string/title_activity_search" >
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
         </activity>
         <activity
-            android:name=".NotificationsActivity"
+            android:name="ru.hhsfbla.network.NotificationsActivity"
             android:label="@string/title_activity_notifications" >
         </activity>
         <activity
-            android:name=".PhotoViewActivity"
+            android:name="ru.hhsfbla.network.PhotoViewActivity"
             android:label="@string/title_activity_photo_view"
             android:theme="@style/PhotoViewTheme" >
         </activity>
         <activity
-            android:name=".HashtagsActivity"
+            android:name="ru.hhsfbla.network.HashtagsActivity"
             android:label="@string/title_activity_hashtags" >
         </activity>
         <activity
-            android:name=".FollowingsActivity"
+            android:name="ru.hhsfbla.network.FollowingsActivity"
             android:label="@string/title_activity_followings" >
         </activity>
         <activity
-            android:name=".FollowersActivity"
+            android:name="ru.hhsfbla.network.FollowersActivity"
             android:label="@string/title_activity_followers" >
         </activity>
         <activity
-            android:name=".LikesActivity"
+            android:name="ru.hhsfbla.network.LikesActivity"
             android:label="@string/title_activity_likes" >
         </activity>
         <activity
-            android:name=".AccountSettingsActivity"
+            android:name="ru.hhsfbla.network.AccountSettingsActivity"
             android:label="@string/title_activity_account_settings"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".ReportActivity"
+            android:name="ru.hhsfbla.network.ReportActivity"
             android:label="@string/title_activity_report" >
         </activity>
         <activity
-            android:name=".BlackListActivity"
+            android:name="ru.hhsfbla.network.BlackListActivity"
             android:label="@string/title_activity_black_list" >
         </activity>
         <activity
-            android:name=".DialogsActivity"
+            android:name="ru.hhsfbla.network.DialogsActivity"
             android:label="@string/title_activity_dialogs" >
         </activity>
         <activity
-            android:name=".ChatActivity"
+            android:name="ru.hhsfbla.network.ChatActivity"
             android:label="@string/title_activity_chat"
             android:windowSoftInputMode="stateHidden" >
         </activity>
         <activity
-            android:name=".NotificationsSettingsActivity"
+            android:name="ru.hhsfbla.network.NotificationsSettingsActivity"
             android:label="@string/title_activity_notifications_settings" >
         </activity>
         <activity
-            android:name=".FavoritesActivity"
+            android:name="ru.hhsfbla.network.FavoritesActivity"
             android:label="@string/title_activity_favorites"
             android:theme="@style/MyMaterialTheme" >
         </activity>
         <activity
-            android:name=".SupportActivity"
+            android:name="ru.hhsfbla.network.SupportActivity"
             android:label="@string/title_activity_support"
             android:theme="@style/MyMaterialTheme" >
         </activity>
         <activity
-            android:name=".LocationActivity"
+            android:name="ru.hhsfbla.network.LocationActivity"
             android:configChanges="keyboardHidden|orientation"
             android:label="@string/title_activity_location"
             android:screenOrientation="portrait"
             android:theme="@style/MyMaterialTheme" >
         </activity>
         <activity
-            android:name=".EditItemActivity"
+            android:name="ru.hhsfbla.network.EditItemActivity"
             android:label="@string/title_activity_edit_item"
             android:theme="@style/MyMaterialTheme" >
         </activity>
         <activity
-            android:name=".DeactivateActivity"
+            android:name="ru.hhsfbla.network.DeactivateActivity"
             android:label="@string/title_activity_deactivate"
             android:theme="@style/MyMaterialTheme" >
         </activity>
         <activity
-            android:name=".RePostItemActivity"
+            android:name="ru.hhsfbla.network.RePostItemActivity"
             android:label="@string/title_activity_repost"
             android:theme="@style/MyMaterialTheme" >
         </activity>

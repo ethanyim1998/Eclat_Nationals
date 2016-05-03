@@ -1,4 +1,4 @@
-package ru.ifsoft.network.adapter;
+package ru.hhsfbla.network.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -28,20 +28,20 @@ import java.util.List;
 import java.util.Map;
 
 import github.ankushsachdeva.emojicon.EmojiconTextView;
-import ru.ifsoft.network.HashtagsActivity;
-import ru.ifsoft.network.LikesActivity;
-import ru.ifsoft.network.PhotoViewActivity;
-import ru.ifsoft.network.ProfileActivity;
-import ru.ifsoft.network.R;
-import ru.ifsoft.network.ViewItemActivity;
-import ru.ifsoft.network.app.App;
-import ru.ifsoft.network.constants.Constants;
-import ru.ifsoft.network.model.Item;
-import ru.ifsoft.network.util.CustomRequest;
-import ru.ifsoft.network.util.ItemInterface;
-import ru.ifsoft.network.util.TagClick;
-import ru.ifsoft.network.util.TagSelectingTextview;
-import ru.ifsoft.network.view.ResizableImageView;
+import ru.hhsfbla.network.HashtagsActivity;
+import ru.hhsfbla.network.LikesActivity;
+import ru.hhsfbla.network.PhotoViewActivity;
+import ru.hhsfbla.network.ProfileActivity;
+import ru.hhsfbla.network.R;
+import ru.hhsfbla.network.ViewItemActivity;
+import ru.hhsfbla.network.app.App;
+import ru.hhsfbla.network.constants.Constants;
+import ru.hhsfbla.network.model.Item;
+import ru.hhsfbla.network.util.CustomRequest;
+import ru.hhsfbla.network.util.ItemInterface;
+import ru.hhsfbla.network.util.TagClick;
+import ru.hhsfbla.network.util.TagSelectingTextview;
+import ru.hhsfbla.network.view.ResizableImageView;
 
 public class StreamListAdapter extends BaseAdapter implements Constants, TagClick {
 
