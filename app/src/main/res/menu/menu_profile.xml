@@ -15,8 +15,6 @@
         android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_profile_copy_url" android:title="@string/action_copy_url"
         android:orderInCategory="100" app:showAsAction="never" />
-    <item android:id="@+id/action_profile_open_url" android:title="@string/action_open_url"
-        android:orderInCategory="100" app:showAsAction="never" />
     <item android:id="@+id/action_profile_settings" android:title="@string/action_settings"
         android:orderInCategory="100" app:showAsAction="never" />
 </menu>

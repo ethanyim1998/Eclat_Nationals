@@ -1572,15 +1572,6 @@ public class ProfileFragment extends Fragment implements Constants, SwipeRefresh
                 return true;
             }
 
-            case R.id.action_profile_open_url: {
-
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(API_DOMAIN + profile.getUsername()));
-                startActivity(i);
-
-                return true;
-            }
-
             case R.id.action_profile_settings: {
 
                 Intent i = new Intent(getActivity(), SettingsActivity.class);
