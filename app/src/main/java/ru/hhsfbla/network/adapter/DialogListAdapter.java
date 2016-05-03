@@ -125,7 +125,9 @@ public class DialogListAdapter extends BaseAdapter implements Constants {
 
         if (chat.getWithUserPhotoUrl().length() > 0) {
 
-            imageLoader.get(chat.getWithUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.chatOpponent, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+            String urlPre = chat.getWithUserPhotoUrl();
+            int index = urlPre.indexOf("/eclat") + 6;
+            imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(viewHolder.chatOpponent, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
         } else {
 

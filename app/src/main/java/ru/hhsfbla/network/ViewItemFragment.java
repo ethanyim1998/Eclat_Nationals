@@ -512,7 +512,9 @@ public class ViewItemFragment extends Fragment implements Constants, SwipeRefres
 
                 mRePostItemAuthorPhoto.setVisibility(View.VISIBLE);
 
-                imageLoader.get(item.getRePostFromUserPhotoUrl(), ImageLoader.getImageListener(mRePostItemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+                String urlPre = item.getRePostFromUserPhotoUrl();
+                int index = urlPre.indexOf("/eclat") + 6;
+                imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(mRePostItemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
             } else {
 
@@ -643,7 +645,9 @@ public class ViewItemFragment extends Fragment implements Constants, SwipeRefres
 
             mItemAuthorPhoto.setVisibility(View.VISIBLE);
 
-            imageLoader.get(item.getFromUserPhotoUrl(), ImageLoader.getImageListener(mItemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+            String urlPre = item.getFromUserPhotoUrl();
+            int index = urlPre.indexOf("/eclat") + 6;
+            imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(mItemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
         } else {
 

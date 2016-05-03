@@ -158,7 +158,9 @@ public class ChatListAdapter extends BaseAdapter implements Constants {
 
             if (chatItem.getFromUserPhotoUrl().length() > 0) {
 
-                imageLoader.get(chatItem.getFromUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.mRight_FromUser, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+                String urlPre = chatItem.getFromUserPhotoUrl();
+                int index = urlPre.indexOf("/eclat") + 6;
+                imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(viewHolder.mRight_FromUser, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
             } else {
 
@@ -223,7 +225,9 @@ public class ChatListAdapter extends BaseAdapter implements Constants {
 
             if (chatItem.getFromUserPhotoUrl().length() > 0) {
 
-                imageLoader.get(chatItem.getFromUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.mLeft_FromUser, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+                String urlPre = chatItem.getFromUserPhotoUrl();
+                int index = urlPre.indexOf("/eclat") + 6;
+                imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(viewHolder.mLeft_FromUser, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
             } else {
 

@@ -169,7 +169,10 @@ public class CommentListAdapter extends BaseAdapter implements Constants {
 
             viewHolder.commentAuthorPhoto.setVisibility(View.VISIBLE);
 
-            imageLoader.get(comment.getFromUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.commentAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+            String urlPre = comment.getFromUserPhotoUrl();
+            int index = urlPre.indexOf("/eclat") + 6;
+            //
+            imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(viewHolder.commentAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
         } else {
 

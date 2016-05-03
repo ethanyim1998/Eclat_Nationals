@@ -163,7 +163,9 @@ public class BlackListAdapter extends BaseAdapter implements Constants {
 
         if (item.getBlockedUserPhotoUrl().length() > 0) {
 
-            imageLoader.get(item.getBlockedUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.mBlockedUser, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+            String urlPre = item.getBlockedUserPhotoUrl();
+            int index = urlPre.indexOf("/eclat") + 6;
+            imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(viewHolder.mBlockedUser, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
         } else {
 

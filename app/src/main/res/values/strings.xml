@@ -152,7 +152,7 @@
     <string name="label_delete_comment">Are you sure you want to delete this comment?</string>
     <string name="label_post_report_title">Abuse report</string>
     <string name="label_last_message_image">Image</string>
-    <string name="label_you_havent_items">You haven\'t posts.</string>
+    <string name="label_you_havent_items">You have no posts.</string>
     <string name="label_user_havent_items">This user has no posts.</string>
     <string name="label_profile_reported">Profile reported.</string>
     <string name="label_post_reported">Post reported.</string>

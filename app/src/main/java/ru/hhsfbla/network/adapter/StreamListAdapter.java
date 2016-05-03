@@ -221,7 +221,9 @@ public class StreamListAdapter extends BaseAdapter implements Constants, TagClic
 
                 viewHolder.rePostItemAuthorPhoto.setVisibility(View.VISIBLE);
 
-                imageLoader.get(item.getRePostFromUserPhotoUrl(), ImageLoader.getImageListener(viewHolder.rePostItemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
+                String urlPre = item.getRePostFromUserPhotoUrl();
+                int index = urlPre.indexOf("/eclat") + 6;
+                imageLoader.get("http://eclat.hhsfbla.com/" + urlPre.substring(index), ImageLoader.getImageListener(viewHolder.rePostItemAuthorPhoto, R.drawable.profile_default_photo, R.drawable.profile_default_photo));
 
             } else {
 
